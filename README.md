@@ -13,3 +13,10 @@ This repository contains the public website used to present SOURI externally.
 ```bash
 npm install
 npm run dev
+Production build
+npm run build
+Related repository
+
+Main public product repository:
+
+github.com/daviscardenas2006/souri
