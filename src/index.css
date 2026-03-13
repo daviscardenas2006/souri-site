@@ -1,0 +1,47 @@
+/* Base: dark theme for privacy/security product */
+:root {
+  --bg: #0d0e10;
+  --text: #a1a1aa;
+  --text-heading: #fafafa;
+  --text-muted: #71717a;
+  --border: #27272a;
+  --accent: #a78bfa;
+  --card-bg: #18181b;
+  --placeholder-bg: #1f1f23;
+
+  --content-width: 960px;
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-xxl: 3rem;
+
+  --sans: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --heading: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --mono: ui-monospace, 'Cascadia Code', Consolas, monospace;
+
+  font-family: var(--sans);
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
