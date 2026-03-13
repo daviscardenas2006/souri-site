@@ -10,6 +10,15 @@ This repository contains the public website used to present SOURI externally.
 
 ## Local development
 
-```bash
-npm install
+npm install  
 npm run dev
+
+## Production build
+
+npm run build
+
+## Related repository
+
+Main public product repository:
+
+[github.com/daviscardenas2006/souri](https://github.com/daviscardenas2006/souri)
