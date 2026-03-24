@@ -12,7 +12,6 @@ This repository contains the public-facing website used to present SOURI externa
 
 SOURI is a privacy-first, local-first browser extension that helps protect sensitive data before it reaches AI tools.
 
-<<<<<<< HEAD
 It is designed to help users:
 
 - detect sensitive data in active inputs
@@ -20,9 +19,6 @@ It is designed to help users:
 - see visible in-context actions
 - keep an audit trail of privacy events
 - turn repeated actions into reusable rules
-=======
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 12e4220 (Add updated product screenshots)
 
 ## Product preview
 
@@ -43,12 +39,22 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ### Rules with created rule
 ![Rules with created rule](public/screenshots/07-rules-with-rule.jpg)
-<<<<<<< HEAD
 
 ## Local development
 
 ```bash
 npm install
 npm run dev
-=======
->>>>>>> 12e4220 (Add updated product screenshots)
+```
+
+## Production build
+
+```bash
+npm run build
+```
+
+## Related repository
+
+Main public product repository:
+
+[github.com/daviscardenas2006/souri](https://github.com/daviscardenas2006/souri)
