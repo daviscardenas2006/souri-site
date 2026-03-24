@@ -84,27 +84,39 @@ function App() {
           <div className="preview-grid">
             <div className="preview-card">
               <div className="preview-frame">
-                <img src="/screenshots/01-popup-overview.jpg" alt="SOURI extension popup overview" className="preview-img" />
+                <img src="/screenshots/01-home.jpg" alt="Home" className="preview-img" />
               </div>
-              <span className="preview-label">Popup overview</span>
+              <span className="preview-label">Home</span>
             </div>
             <div className="preview-card">
               <div className="preview-frame">
-                <img src="/screenshots/06-rules-list.png" alt="SOURI rules list" className="preview-img" />
+                <img src="/screenshots/02-toast-detection.jpg" alt="Detection toast" className="preview-img" />
               </div>
-              <span className="preview-label">Rules list</span>
+              <span className="preview-label">Detection toast</span>
             </div>
             <div className="preview-card">
               <div className="preview-frame">
-                <img src="/screenshots/04-audit-viewer.png" alt="SOURI audit viewer" className="preview-img" />
+                <img src="/screenshots/03-input-sanitized.jpg" alt="Sanitized input" className="preview-img" />
               </div>
-              <span className="preview-label">Audit viewer</span>
+              <span className="preview-label">Sanitized input</span>
             </div>
             <div className="preview-card">
               <div className="preview-frame">
-                <img src="/screenshots/05-create-rule-from-event.png" alt="SOURI create rule from event" className="preview-img" />
+                <img src="/screenshots/04-audit-history.jpg" alt="Audit history" className="preview-img" />
               </div>
-              <span className="preview-label">Create rule from event</span>
+              <span className="preview-label">Audit history</span>
+            </div>
+            <div className="preview-card">
+              <div className="preview-frame">
+                <img src="/screenshots/06-create-rule-from-audit.png" alt="Create rule from audit" className="preview-img" />
+              </div>
+              <span className="preview-label">Create rule from audit</span>
+            </div>
+            <div className="preview-card">
+              <div className="preview-frame">
+                <img src="/screenshots/07-rules-with-rule.jpg" alt="Rules with created rule" className="preview-img" />
+              </div>
+              <span className="preview-label">Rules with created rule</span>
             </div>
           </div>
         </section>
